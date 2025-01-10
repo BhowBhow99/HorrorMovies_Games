@@ -9,6 +9,7 @@
     /* height: 100vh; */
     display: flex;
     justify-content: center;
+    /* background-color: black; */
     
 }
 
@@ -19,6 +20,7 @@
     /* padding-top: 28px; */
     padding-right: 40px;
     /* border: solid black 1px; */
+    
 }
 .btn{
     background-color: #f1f1f1;
@@ -27,4 +29,25 @@
     border-radius: 5px;
     margin-top: 20px;
     cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+
+}
+/* header{
+    background-color: black;
+} */
+
+.header{
+    background-color: black;
+    padding-bottom: 20px;
+}
+main {
+    background-image: url('/Images/doll.jpg');
+    background-size: cover; /* This will make sure the image covers the entire background */
+    background-repeat: no-repeat; /* This will prevent the image from repeating */
+    background-position: center; /* This will center the image */
+    background-attachment: fixed;
+    height: 100vh;
+    /* scroll-margin-bottom: -20px; */
 }
