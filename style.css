@@ -42,7 +42,7 @@
     background-color: black;
     padding-bottom: 20px;
 }
-main {
+body{
     background-image: url('/Images/doll.jpg');
     background-size: cover; /* This will make sure the image covers the entire background */
     background-repeat: no-repeat; /* This will prevent the image from repeating */
